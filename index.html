@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Character encoding enables you to use different characters-->
+    <meta charset="UTF-8" />
+    <!--This makes your website responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta <http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--What to put things here that describes the page, this does not show in the page-->
+    <title>Document</title>
+  </head>
+  <body>
+    <!--This tag is a heading tag used to display large text there is h1 to h6 with h1 being the largest, try to have only one h1 per page but you can have more of the others-->
+    <h1>Hello World</h1>
+
+    <!--Paragraph tag and does exactly that: create a paragraph-->
+    <p>
+      Lorem ipsum dolor sit
+      <!--This tag makes text bold--><strong>sit</strong>amet consectetur
+      adipisicing elit. Voluptate, est?
+    </p>
+
+    <!--This is a comment you can use this to omit stuff from the page.-->
+
+    <!--Self closing tag and this give you a line brake in your page--><br />
+
+    <!--Link tag allows you to link to external pages or documents use it with target attribute to open page in new tab--><a
+      href="http://google.com"
+      target="_blank"
+    ></a>
+
+    <!--allows you to add images to your site in src you put the source of the image and alt describes the image.--><img
+      src=""
+      alt=""
+    />
+
+    <!--this tag allows you to have an unordered list of items-->
+    <ul>
+      <!--put list items in here-->
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+
+    <!--Same thing as above but is numbered-->
+    <ol>
+      <li>1</li>
+      <li>2</li>
+    </ol>
+
+    <!--This is used to create tables that contain some sort of data-->
+    <table>
+      <!--This is what appears in the head of the table-->
+      <thead>
+        <tr>
+          <!--These are the headings-->
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <!--What appears in the body: data-->
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>Someones email</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--Forms and inputs-->
+
+    <!--This is just a way to separate content think of divisions or dividing stuff up into different sections.-->
+    <div>
+      <!--This is how you label your input--><label for="name">Name</label
+      ><br />
+      <!--Saying what is going to appear in the input so in this case it will be text--><input
+        type="text"
+        id="name"
+        name="name"
+      />
+      <div>
+        <!--This would be used for email input--><label for="email"></label
+        ><br />
+        <input type="email" name="email" id="email" />
+      </div>
+    </div>
+
+    <!--Id's are used to distinguish different sections but try to only use one id per part meaning dont have multiple ids with the same name -->
+    <div id="Main-div">
+      <h1>hello</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, dolorum!
+      </p>
+    </div>
+
+    <!--Classes are the same as id's except you can add a class to multiple parts and style them with css.-->
+    <div class="Main-div">
+      <h1>hello</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, dolorum!
+      </p>
+    </div>
+  </body>
+</html>
